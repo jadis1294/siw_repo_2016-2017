@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="ISO-8859-1" />
-	<link rel="stylesheet" href="foglioStile.css" />
-	<title>Inserimento Studente</title>
+<meta charset="ISO-8859-1" />
+<link rel="stylesheet" href="foglioStile.css" />
+<title>Inserimento Studente</title>
 </head>
 <body>
 	<hr>
 	<h1>Nuovo studente</h1>
 	<hr>
 	<form action="processaDati" method="get">
-	<div align = "center">
-	<table>
-		<tr><td align="right">Nome:</td><td><input type="text" name="nome" size="20" autofocus="autofocus"/></td></tr>
-		<tr><td align="right">Cognome:</td><td><input type="text" name="cognome" size="20"/></td></tr>
-		<tr><td align="right">Matricola:</td><td><input type="text" name="matricola" size="6" maxlength="6" pattern=".{6,}" placeholder="XXXXXX" required/></td></tr>
-		</table>
-		<input type="submit" value="INVIA" />
-	</div>
+		<div align="center">
+			<table>
+				<tr>
+					<td align="right">Nome:</td>
+					<td><input type="text" name="nome" size="20"
+						autofocus="autofocus" /></td>
+				</tr>
+				<tr>
+					<td align="right">Cognome:</td>
+					<td><input type="text" name="cognome" size="20" /></td>
+				</tr>
+				<tr>
+					<td align="right">Matricola:</td>
+					<td><input type="text" name="matricola" size="6" maxlength="6"
+						pattern=".{6,}" placeholder="XXXXXX" required /></td>
+				</tr>
+			</table>
+			<input type="submit" value="INVIA" />
+		</div>
 	</form>
 </body>
 </html>

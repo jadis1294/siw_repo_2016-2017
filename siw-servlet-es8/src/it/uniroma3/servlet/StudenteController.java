@@ -30,7 +30,6 @@ public class StudenteController extends HttpServlet{
 			Studente studente= new Studente(nome,cognome,matricola);
 			session.setAttribute("studente", studente);
 			nextPage="/studente.jsp";
-			
 		}
 		else {
 			if(nome.equals("") || nome==null){

@@ -24,7 +24,7 @@
 			String encodedURL = response.encodeURL("MostraDati.jsp");
 		%>
 		<li><a href="<%=encodedURL%>">Conferma i dati inseriti</a></li>
-		<li><a href= "newStudente.html">Torna all'inserimento</a></li>
+		<li><a href="newStudente.html">Torna all'inserimento</a></li>
 	</ul>
 	");
 </body>

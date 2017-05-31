@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" href="foglioStile.css" />
+<link rel="stylesheet" href="foglioStile.css" />
 <title>Mostra Dati</title>
 </head>
 <body>
